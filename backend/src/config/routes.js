@@ -1,5 +1,6 @@
 const express = require('express')
 
+// rotas
 module.exports = function(server) {
 
     // Definir URL base para todas as rotas

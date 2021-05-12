@@ -1,7 +1,7 @@
 const restful = require('node-restful')
 const mongoose = restful.mongoose
 
-
+// Acesso ao mongoDB
 const creditSchema = new mongoose.Schema({
     name: { type: String, required: true },
     value: { type: Number, min: 0, required: [true, 'Informe o valor do débito'] }
